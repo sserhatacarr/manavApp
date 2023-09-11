@@ -6,6 +6,8 @@ public class Main {
         double armut = 2.14, elma = 3.67, domates = 1.11, muz = 0.95, patlican = 5.0;
         double kga, kge, kgd, kgm, kgp, total;
 
+        //Ürün kilogram fiyatları ve kullancıdan alınıcak kg miktar karşılıkları değişken olarak tanımlandı.
+
         Scanner inp = new Scanner(System.in);
 
         System.out.print("Kaç kilo armut istiyorsunuz ? : ");
@@ -28,8 +30,12 @@ public class Main {
         kgp = inp.nextDouble();
         patlican *= kgp;
 
+        //Scanner sınıfından nesne üretildi ve kullanıdan alınan kilogram karşılıkları değişkenlere atandı.
+
         total = armut + elma + domates + muz + patlican;
         System.out.print("Toplam tutar = " + total);
+
+        // Toplam tutar hesaplandı ve yazdırıldı.
 
 
     }
